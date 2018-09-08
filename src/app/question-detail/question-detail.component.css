@@ -1,0 +1,15 @@
+.question-header {
+    display: flex;
+}
+
+.difficulty-div {
+    display: flex;
+    align-content: center;
+    
+}
+
+.radio-group {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 25% 25%;
+}
