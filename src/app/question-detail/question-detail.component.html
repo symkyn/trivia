@@ -1,0 +1,16 @@
+<h3>{{question.question}}</h3>
+<mat-radio-group class='radio-group' [(ngModel)]="response">
+  <mat-radio-button class='radio-button' [value]=question.options[1]>
+    {{question.options[1]}}
+  </mat-radio-button>
+  <mat-radio-button class='radio-button' [value]=question.options[2]>
+    {{question.options[2]}}
+  </mat-radio-button>
+  <mat-radio-button class='radio-button' [value]=question.options[3]>
+    {{question.options[3]}}
+  </mat-radio-button>
+  <mat-radio-button class='radio-button' [value]=question.options[4]>
+    {{question.options[4]}}
+  </mat-radio-button>
+</mat-radio-group>
+<div>Your answer is: {{response}}</div>

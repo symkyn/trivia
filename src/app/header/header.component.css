@@ -1,14 +1,14 @@
 .header {
     background-color: #284a5c;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
 h1 {
-  margin-right: auto;  
-  margin-left: auto;
+    
+    margin-right: auto;  
+    margin-left: auto;
+    
 }
 
 button {
